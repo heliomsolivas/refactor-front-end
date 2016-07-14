@@ -1,0 +1,25 @@
+{
+  "name": "refactor-front-end",
+  "version": "1.0.0",
+  "description": "Projetos de refatoração de front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "refactor",
+    "front-end"
+  ],
+  "author": "Hélio Marcondes",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.3.7",
+    "cssnano": "^3.7.3",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rucksack": "^0.1.3",
+    "gulp-stylelint": "^2.0.2"
+  }
+}

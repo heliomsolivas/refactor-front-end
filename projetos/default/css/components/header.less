@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	display: flex;
+	height: 100%;
+	box-sizing: border-box;
+	flex-direction:column;
+	font-size: 16px;
+}
+header{
+	padding: 1.5em;
+	background: #F4F3F0;
+	display: flex;
+	//Display: Flex não vai permitir que os elementos block empurrem o outro para baixo
+	> .header-title{
+		display: flex;
+		justify-content: flex-start;
+		align-items: baseline;
+		> h1{
+			color: black;
+		}
+		> h2{
+			    font-weight: 300;
+    			color: gray;
+    			margin-left:1em;
+    			font-size: 1em;
+		}
+	}
+}
